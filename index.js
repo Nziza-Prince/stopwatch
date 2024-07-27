@@ -36,7 +36,6 @@ function update(){
       display.textContent=`${hours}:${minutes}:${seconds}:${miliseconds}`
 
 }
-
 document.addEventListener('keydown',(event)=>{
     event.preventDefault();
     if(event.key===' '){
